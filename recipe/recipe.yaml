@@ -21,6 +21,9 @@ requirements:
     - cargo-bundle-licenses
     - cmake
     - make
+    - pkg-config
+  host:
+    - openssl
 
 tests:
   - script:
