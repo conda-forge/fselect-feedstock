@@ -13,6 +13,8 @@ cargo-bundle-licenses ^
 :: build statically linked binary with Rust
 cargo install --bins --no-track --locked --root %LIBRARY_PREFIX% --path . || goto :error
 
+rm %LIBRARY_PREFIX%\lib\ssh2.lib
+
 goto :EOF
 
 :error
