@@ -3,6 +3,8 @@ set CARGO_PROFILE_RELEASE_LTO=fat
 set OPENSSL_DIR=%LIBRARY_PREFIX%
 set OPENSSL_NO_VENDOR=1
 
+mklink %LIBRARY_PREFIX%\lib\ssh2.lib %LIBRARY_PREFIX%\lib\libssh2.lib
+
 :: check licenses
 cargo-bundle-licenses ^
     --format yaml ^
