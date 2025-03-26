@@ -1,5 +1,5 @@
 context:
-  version: "0.8.8"
+  version: "0.8.11"
 
 package:
   name: fselect
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jhspetersson/fselect/archive/${{ version }}.tar.gz
-  sha256: 0f586c3870a66d4a3ab7b92409dcf0f68a23bd8031ec0cc3f1622efebe190c9e
+  sha256: aafd7d6463a1d8d699a9d3f80295b66aee1b6dc3748c9409c7b76f5fef9a180c
 
 build:
   number: 0
