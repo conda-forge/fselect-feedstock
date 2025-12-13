@@ -23,8 +23,6 @@ requirements:
     - make
     - pkg-config
   host:
-    - if: win
-      then: libssh2
     - openssl
 
 tests:
