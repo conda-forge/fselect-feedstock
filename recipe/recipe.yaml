@@ -23,7 +23,13 @@ requirements:
     - make
     - pkg-config
   host:
-    - openssl
+    - if: unix
+      then:
+        - openssl
+  run:
+    - if: win
+      then:
+       - libgit2
 
 tests:
   - script:
