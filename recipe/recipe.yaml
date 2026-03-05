@@ -1,5 +1,5 @@
 context:
-  version: "0.9.2"
+  version: "0.9.3"
 
 package:
   name: fselect
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jhspetersson/fselect/archive/${{ version }}.tar.gz
-  sha256: 5263963ef5f02c74e968206221095722557a764ff92b7f343a92a37d718d87a6
+  sha256: ea824bd6e57926e243c98ed2fa73bf3eb412a3bd837c388abb1451d727dc46f2
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
   run:
     - if: win
       then:
-       - libgit2
+        - libgit2
 
 tests:
   - script:
